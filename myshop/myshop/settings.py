@@ -37,6 +37,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'blog.apps.BlogConfig',
+    'cart.apps.CartConfig',
+    'catalog.apps.CatalogConfig',
+    'orders.apps.OrdersConfig',
+    'payment.apps.PaymentConfig',
+    'users.apps.UsersConfig',
 ]
 
 MIDDLEWARE = [
@@ -103,7 +110,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru'
 
 TIME_ZONE = 'UTC'
 
